@@ -2,12 +2,14 @@
     text-decoration: none;
     margin: 0;
     padding: 0px;
+    
 }
 
 body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans',sans-serif;
+    
 }
 
 .wrapper {
@@ -21,7 +23,7 @@ body {
     font-weight: 800;
     float: left;
     font-family: courier;
-    color: rgb(227, 223, 248);
+    color: #c7a364;
 }
 
 .menu {
@@ -36,9 +38,9 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: rgb(91, 107, 107);
+    background: rgb(204, 26, 26)
     z-index: 1;
-    border:1px saddlebrown
+    border:1px solid #618264
 }
 
 nav ul {
@@ -48,8 +50,8 @@ nav ul {
     overflow: hidden;
 }
 
-nav ul li a {
-    float: left;
+nav ul li {
+   float: left; 
 }
 
 nav ul li a {
@@ -79,7 +81,7 @@ section {
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans-ms';
-    color: #0d0e0d;
+    color: #000000;
 }
 
 h2 {
@@ -87,38 +89,38 @@ h2 {
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
-    color: rgb(16, 17, 17);
-    width: 100px;
+    color:#618264;
+    width: 100%;
     line-height: 50px;
 }
 
 a.tbl-biru {
-    background: #0d0e0d;
+    background: #79AC78;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color: aliceblue;
+    color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
 }
 
 a.tbl-biru:hover {
-    background: #dd68ba;
+    background: #330210;
     text-decoration: none;
 }
 
 a.tbl-pink {
-    background: #dd68ba;
+    background: #330210;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color:aliceblue;
+    color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
 }
 
 a.tbl-pink:hover {
-    background: #9e307d;
+    background: #618264;
     text-decoration: none;
 }
 
@@ -129,16 +131,16 @@ p {
 
 .tengah {
     text-align: center;
-    width: 100px;
+    width: 100%;
 }
 
 #contact {
-    background: #e5ebe5;
-    padding: 50px 0px 50px 0px;
+    background: #dedede;
+    padding:50px 0px 50px 0px;
 }
 
 .footer {
-    width: 100px;
+    width:100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -155,7 +157,8 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: aquamarine;
+    color:rgb(26, 111, 148);
     width: 100%;
     line-height: 50px;
+
 }
